@@ -1,11 +1,80 @@
-@keyframes bgAnimation {
+body {
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh;
+  position: relative; /* Needed for absolute positioning of the vector image */
+}
+h1,
+h2,
+h3,
+p {
+  color: #f2f2f2;
+}
+
+.hello {
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  font-size: 3rem;
+  margin-bottom: -2rem;
+  margin-left: -2rem;
+}
+.vector-img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  height: 50%;
+  width: auto; /* Maintain aspect ratio */
+  margin: 1rem; /* Optional: add space around the image */
+}
+
+.static-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.dynamic-text {
+  font-size: 2rem;
+  font-weight: 100;
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+/* Keyframes for fade-in, fade-out animation */
+@keyframes fadeInOut {
   0% {
-    background-color: #0a192f; /* Initial background color */
+    opacity: 0;
   }
-  50% {
-    background-color: #ed64a6; /* Intermediate background color */
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
   }
   100% {
-    background-color: #ed8936; /* Final background color */
+    opacity: 0;
   }
+}
+
+.see-more {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid #232222;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2rem;
+  margin-left: 18rem;
+  transition: background-color 0.3s, color 0.3s;
+  outline: none;
+}
+
+.see-more:hover {
+  background-color: #232222; /* Teal background on hover */
+  color: #f2f2f2; /* Text color on hover */
 }

@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import About from './components/About';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Skills from './components/Skills';
+import Works from './components/Works';
 import 'tailwindcss/tailwind.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,6 +15,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navbar/>
+      <Home/>
+      <About/>
+      <Contact/>
+      <Skills/>
+      <Works/>
   </React.StrictMode>
 );
 
