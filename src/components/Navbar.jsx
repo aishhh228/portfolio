@@ -1,19 +1,17 @@
-import { ImWink } from "react-icons/im";
-import React, { useState } from 'react'; 
-import {
- 
-  FaBars,
-  FaTimes
- 
-} from 'react-icons/fa';
-import { Link } from 'react-scroll';
-const Navbar = () => {
- 
+import React from 'react'
+import { FaLinkedin, FaGithub,FaFileAlt } from 'react-icons/fa'
+function Navbar() {
   return (
-   <div>
-    
+    <nav className='mb-20 flex items-center justify-end py-6'>
+
+   
+    <div className='m-8 flex items-center gap-4 text-2xl'>
+      <FaLinkedin />
+      <FaGithub />
+      <FaFileAlt />
     </div>
-     
-  );
-};
-export default Navbar;
+    </nav>
+  )
+}
+
+export default Navbar
