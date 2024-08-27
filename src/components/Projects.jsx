@@ -10,8 +10,8 @@ function Projects() {
         <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
             <div className='w-full lg:w-1/4'>
             <img src={project.image} 
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt={project.title} 
             className='mb-6 rounded'></img>
             </div>
