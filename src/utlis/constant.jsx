@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
     {
       year: "2022 - Present",
-      role: "Senior Full Stack Developer",
+      role: "Full Stack Developer",
       company: "Accenture",
       description: `Developing and maintaining web applications using JavaScript, React.js. Implemented RESTful APIs and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
       technologies: ["Javascript", "React.js", "AzureDevops", "Redux"],
@@ -40,7 +40,7 @@ export const PROJECTS = [
     title: "Netflix-GPT",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    "An AI-powered application that enhances the Netflix experience by providing personalized movie and TV show recommendations in multiple languages. It supports multi-language queries and delivers tailored content suggestions.",
     technologies: ["HTML", "Tailwind CSS", "Firebase", "React", "Redux"],
   },
   {
@@ -54,13 +54,13 @@ export const PROJECTS = [
     title: "Food-Ordering App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    "A user-friendly platform for browsing, ordering, and managing food deliveries, featuring an intuitive interface.",
     technologies: ["HTML", "CSS", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "Mumbai,India",
+  address: "Mumbai, India",
   phoneNo: "+91 9307917117",
   email: "aish.sagavakar5@gmail.com",
 };
