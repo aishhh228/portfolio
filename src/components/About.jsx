@@ -19,20 +19,25 @@ const About = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-        <div className="flex flex-col items-center lg:items-start">
-        <motion.h1 variants={container(0)} 
-        initial="hidden"  
-        animate="visible" 
-         className="pb-16 text-6xl lg:mt-6 lg:text-8xl lg:m-4">
-        Aishwarya Sagavakar</motion.h1>
-        <motion.span
-        variants={container(0.5)} 
-        initial="hidden"  
-        animate="visible" 
-        className="m-4 mb-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</motion.span>
-        <motion.p variants={container(1)} 
-        initial="hidden"  
-        animate="visible"  className="m-4 mt-0 max-w-xl py-6 font-light tracking-tighter">{ABOUT_ME}</motion.p>
+        <div className="flex flex-col items-center lg:items-start lg:mx-10">
+            <motion.h1 variants={container(0)} 
+            initial="hidden"  
+            animate="visible" 
+            className="pb-16 font-thin text-6xl lg:mt-6 lg:text-8xl">
+            Aishwarya Sagavakar
+            </motion.h1>
+            <motion.span
+            variants={container(0.5)} 
+            initial="hidden"  
+            animate="visible" 
+            className="m-4 mb-2 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer
+            </motion.span>
+            
+            <motion.p variants={container(1)} 
+            initial="hidden"  
+            animate="visible"  
+            className="m-4 mt-0 max-w-xl py-6 font-light tracking-tighter">{ABOUT_ME}
+            </motion.p>
         </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-2">
