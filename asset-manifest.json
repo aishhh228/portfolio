@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e599d3a0.css",
+    "main.js": "/portfolio/static/js/main.80e9ea45.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/bgImage.jpg": "/portfolio/static/media/bgImage.509312e6af224438ad7c.jpg",
+    "static/media/Hi_gril.png.png": "/portfolio/static/media/Hi_gril.png.777fcc407d88e24073a2.png",
+    "static/media/FoodApp.jpg": "/portfolio/static/media/FoodApp.5d1dc5f517f3ecd67977.jpg",
+    "static/media/Netflix.jpg": "/portfolio/static/media/Netflix.a26d1badaf337500f806.jpg",
+    "static/media/EWeb.jpg": "/portfolio/static/media/EWeb.2decc8260c645441365c.jpg",
+    "static/media/About-img.png": "/portfolio/static/media/About-img.691708f6d7f90591fb34.png",
+    "index.html": "/portfolio/index.html",
+    "main.e599d3a0.css.map": "/portfolio/static/css/main.e599d3a0.css.map",
+    "main.80e9ea45.js.map": "/portfolio/static/js/main.80e9ea45.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e599d3a0.css",
+    "static/js/main.80e9ea45.js"
+  ]
+}
