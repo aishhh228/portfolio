@@ -4,14 +4,21 @@ import project3 from '../images/bgImage.jpg'
 import project4 from '../images/FoodApp.jpg'
 
 
-export const ABOUT_ME = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like HTML5, CSS3, React, Redux as well as back-end technologies like Node.js, mySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const ABOUT_ME = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With 5+ years of hands-on experience, I have honed my skills in front-end technologies like HTML5, CSS3, React, Next.js, and Redux as well as back-end technologies like Node.js, mySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`
 
 export const EXPERIENCES = [
-    {
-      year: "2022 - Present",
-      role: "Senior Frontend Developer",
+  {
+    year: "2025 - Present",
+    role: "Senior Frontend Engineer",
+    company: "Infosys",
+    description: `Currently working on building an Next.js application. Collaborating with cross-functional teams to implement new features. Mentoring junior developers, conducting code reviews and contributing to the overall improvement of the codebase.`,
+    technologies: ["Next.js", "TypeScript", "HTML5", "Tailwind CSS"],
+  },
+  {
+      year: "2022 - 2025",
+      role: "Senior Frontend Engineer",
       company: "Accenture",
       description: `Developing and maintaining web applications using JavaScript, React.js. Implemented RESTful APIs and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.`,
       technologies: ["Javascript", "React", "Redux", "HTML", "CSS"],

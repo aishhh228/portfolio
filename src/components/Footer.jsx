@@ -12,7 +12,7 @@ function Footer() {
        transition={{duration:0.5}}
        className='lg:mt-10 text-neutral-400 text-xl'>
         <p className='mb-1'>
-          © AVS 2024
+          © AVS 2026
         </p>
         <p className='text-neutral-400 text-xs'>
           CREATIVE DEVELOPER
